@@ -41,7 +41,7 @@ public class JSONWorkWithGson {
 	}
 	
 	public static <T> List<T> jsonArrayToListOfObj(String jsonArray, Class<T> type){
-		return new Gson().fromJson(jsonArray, new TypeToken<List<Object>>(){}.getType()); 
+		return gson.fromJson(jsonArray, new TypeToken<List<Object>>(){}.getType()); 
 	}
 
 }
