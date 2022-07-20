@@ -20,6 +20,18 @@ public class JSONWorkWithGson {
 	 * build.gradle
 	 * implementation group: 'com.google.code.gson', name: 'gson', version: '2.9.0'
 	 * 
+	 * 
+	 * JSONObject API
+	 * pom.xml
+	 *  <dependency>
+  	 *		<groupId>org.json</groupId>
+  	 *		<artifactId>json</artifactId>
+  	 *		<version>20090211</version>
+	 *	</dependency>
+	 *
+	 *	build.gradle
+	 *  implementation group: 'org.json', name: 'json', version: '20220320'
+	 * 
 	 */
 	
 	private static Gson gson = new Gson();
