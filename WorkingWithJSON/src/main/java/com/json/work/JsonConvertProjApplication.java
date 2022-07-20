@@ -50,7 +50,7 @@ public class JsonConvertProjApplication {
 		List<Employee> list = JSONWorkWithGson.jsonArrayToListOfObj(jsonArray, Employee.class);
 //		System.out.println(list);
 		
-		
+//		Convert List of object to JSON
 		String str = JSONWorkWithGson.objToJson(list);
 		System.out.println(str);
 	}
